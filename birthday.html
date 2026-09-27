@@ -1,0 +1,1697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Happy Birthday Manikanta 🎂❤️</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    /* =========================
+       BASIC RESET
+    ========================= */
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      color: #513653;
+      overflow-x: hidden;
+
+      background:
+        radial-gradient(circle at 10% 10%, #ffd9e9 0%, transparent 25%),
+        radial-gradient(circle at 90% 15%, #e2d2ff 0%, transparent 25%),
+        radial-gradient(circle at 50% 90%, #ffe6c9 0%, transparent 30%),
+        linear-gradient(135deg, #fff7fb, #faf3ff, #fffaf0);
+
+      min-height: 100vh;
+    }
+
+
+    /* =========================
+       FLOATING BACKGROUND SPARKLES
+    ========================= */
+
+    body::before {
+      content:
+        "✦  ✧  ✦  ✧  ✦  ✧  ✦  ✧  ✦  ✧";
+
+      position: fixed;
+      inset: 0;
+
+      color: rgba(215, 70, 145, 0.13);
+      font-size: 28px;
+      line-height: 120px;
+      letter-spacing: 40px;
+
+      pointer-events: none;
+      z-index: -1;
+
+      animation: backgroundSparkles 15s linear infinite;
+    }
+
+    @keyframes backgroundSparkles {
+
+      from {
+        transform: translateY(0);
+      }
+
+      to {
+        transform: translateY(-120px);
+      }
+
+    }
+
+
+    /* =========================
+       NAVIGATION
+    ========================= */
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+
+      width: 100%;
+
+      padding: 15px 7%;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      z-index: 1000;
+
+      background: rgba(255,255,255,0.65);
+      backdrop-filter: blur(18px);
+
+      border-bottom: 1px solid rgba(255,255,255,0.8);
+    }
+
+    .logo {
+      font-family: "Dancing Script", cursive;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #d54391;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 25px;
+      list-style: none;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #694b6d;
+      font-size: 0.9rem;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #dc458f;
+    }
+
+
+    /* =========================
+       GENERAL SECTIONS
+    ========================= */
+
+    section {
+      padding: 110px 7%;
+      text-align: center;
+      position: relative;
+    }
+
+    .section-title {
+      font-family: "Dancing Script", cursive;
+
+      font-size: clamp(3rem, 7vw, 5rem);
+
+      color: #cc438c;
+
+      margin-bottom: 15px;
+    }
+
+    .section-subtitle {
+      max-width: 720px;
+      margin: auto;
+
+      line-height: 1.8;
+
+      color: #775c79;
+    }
+
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .hero {
+      min-height: 100vh;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      padding-top: 120px;
+    }
+
+    .hero-content {
+      max-width: 1000px;
+
+      animation: heroAnimation 1.2s ease;
+    }
+
+    .hero-small {
+      color: #d15196;
+
+      font-weight: 600;
+
+      letter-spacing: 3px;
+
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-family: "Dancing Script", cursive;
+
+      font-size: clamp(4rem, 11vw, 9rem);
+
+      line-height: 0.95;
+
+      color: #d33d88;
+
+      text-shadow:
+        0 8px 30px rgba(210,60,130,0.2);
+    }
+
+    .hero-text {
+      margin: 30px 0;
+
+      font-size: 1.25rem;
+
+      color: #725574;
+    }
+
+    @keyframes heroAnimation {
+
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+    }
+
+
+    /* =========================
+       BUTTON
+    ========================= */
+
+    .btn {
+      border: none;
+      outline: none;
+
+      padding: 16px 32px;
+
+      border-radius: 100px;
+
+      cursor: pointer;
+
+      color: white;
+
+      font-family: inherit;
+
+      font-size: 1rem;
+      font-weight: 600;
+
+      background:
+        linear-gradient(
+          135deg,
+          #ff5fa4,
+          #a25cff
+        );
+
+      box-shadow:
+        0 10px 30px rgba(190,70,150,0.3);
+
+      transition: 0.35s;
+    }
+
+    .btn:hover {
+
+      transform:
+        translateY(-5px)
+        scale(1.04);
+
+      box-shadow:
+        0 15px 40px rgba(190,70,150,0.45),
+        0 0 25px rgba(255,100,180,0.3);
+    }
+
+    .btn:active {
+      transform: scale(0.96);
+    }
+
+
+    /* =========================
+       BIRTHDAY CAKE
+    ========================= */
+
+    .cake {
+
+      width: 250px;
+      height: 190px;
+
+      position: relative;
+
+      margin: 50px auto 35px;
+
+      animation: cakeFloat 3s ease-in-out infinite;
+    }
+
+    @keyframes cakeFloat {
+
+      0%, 100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-9px);
+      }
+
+    }
+
+    .cake-body {
+
+      position: absolute;
+
+      bottom: 0;
+      left: 10px;
+
+      width: 230px;
+      height: 105px;
+
+      border-radius:
+        15px
+        15px
+        28px
+        28px;
+
+      background:
+        linear-gradient(
+          #ff9bc7,
+          #f45b9e
+        );
+
+      box-shadow:
+        0 18px 35px
+        rgba(195,65,135,0.25);
+    }
+
+    .cake-top {
+
+      position: absolute;
+
+      top: 48px;
+      left: 10px;
+
+      width: 230px;
+      height: 45px;
+
+      border-radius: 50%;
+
+      background: #fff7fb;
+
+      z-index: 2;
+    }
+
+    .candle {
+
+      position: absolute;
+
+      top: 5px;
+
+      width: 15px;
+      height: 50px;
+
+      border-radius: 6px;
+
+      z-index: 5;
+
+      background:
+        repeating-linear-gradient(
+          45deg,
+          #ffffff,
+          #ffffff 6px,
+          #9860ff 6px,
+          #9860ff 12px
+        );
+    }
+
+    .candle:nth-child(1) {
+      left: 65px;
+    }
+
+    .candle:nth-child(2) {
+      left: 117px;
+    }
+
+    .candle:nth-child(3) {
+      left: 169px;
+    }
+
+    .flame {
+
+      position: absolute;
+
+      top: -25px;
+      left: 0;
+
+      width: 16px;
+      height: 23px;
+
+      background: #ffd43b;
+
+      border-radius:
+        50%
+        50%
+        50%
+        0;
+
+      transform: rotate(-45deg);
+
+      box-shadow:
+        0 0 20px #ffae00;
+
+      animation:
+        flameAnimation
+        1s
+        ease-in-out
+        infinite
+        alternate;
+    }
+
+    @keyframes flameAnimation {
+
+      from {
+        transform:
+          rotate(-45deg)
+          scale(1);
+      }
+
+      to {
+        transform:
+          rotate(-45deg)
+          scale(1.2);
+      }
+
+    }
+
+
+    /* =========================
+       MESSAGE
+    ========================= */
+
+    .message-card {
+
+      max-width: 850px;
+
+      margin: 45px auto 0;
+
+      padding: 50px;
+
+      background:
+        rgba(255,255,255,0.72);
+
+      border:
+        1px solid
+        rgba(255,255,255,0.85);
+
+      border-radius: 35px;
+
+      box-shadow:
+        0 25px 70px
+        rgba(90,40,100,0.1);
+
+      line-height: 2;
+
+      font-size: 1.05rem;
+    }
+
+    .heart-icon {
+
+      font-size: 3.5rem;
+
+      margin-bottom: 15px;
+
+      animation:
+        heartbeat
+        1.5s
+        infinite;
+    }
+
+    @keyframes heartbeat {
+
+      0%, 100% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.15);
+      }
+
+    }
+
+
+    /* =========================
+       REASONS
+    ========================= */
+
+    .reasons {
+
+      max-width: 1100px;
+
+      margin: 50px auto 0;
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(5, 1fr);
+
+      gap: 18px;
+    }
+
+    .reason {
+
+      min-height: 180px;
+
+      padding: 25px 15px;
+
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+
+      border-radius: 25px;
+
+      background:
+        rgba(255,255,255,0.75);
+
+      box-shadow:
+        0 15px 35px
+        rgba(100,40,100,0.1);
+
+      cursor: pointer;
+
+      transition: 0.4s;
+    }
+
+    .reason:hover {
+
+      transform:
+        translateY(-10px)
+        rotate(1deg);
+
+      background:
+        linear-gradient(
+          135deg,
+          #ffe0ec,
+          #eee0ff
+        );
+
+      box-shadow:
+        0 20px 45px
+        rgba(180,70,150,0.2);
+    }
+
+    .reason.active {
+
+      transform:
+        translateY(-12px)
+        scale(1.03);
+
+      background:
+        linear-gradient(
+          135deg,
+          #ffd2e5,
+          #dec9ff
+        );
+    }
+
+
+    /* =========================
+       COUNTDOWN
+    ========================= */
+
+    .countdown {
+
+      max-width: 850px;
+
+      margin: 45px auto 0;
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(4, 1fr);
+
+      gap: 18px;
+    }
+
+    .time-box {
+
+      padding: 30px 10px;
+
+      background:
+        rgba(255,255,255,0.75);
+
+      border-radius: 25px;
+
+      box-shadow:
+        0 15px 35px
+        rgba(100,40,100,0.1);
+    }
+
+    .time-box strong {
+
+      display: block;
+
+      color: #d14b91;
+
+      font-size: 2.8rem;
+    }
+
+    .time-box span {
+
+      color: #795d7c;
+
+      font-size: 0.8rem;
+
+      text-transform: uppercase;
+
+      letter-spacing: 1px;
+    }
+
+
+    /* =========================
+       FINAL SURPRISE
+    ========================= */
+
+    .surprise {
+
+      min-height: 650px;
+
+      display: flex;
+
+      justify-content: center;
+      align-items: center;
+
+      flex-direction: column;
+
+      overflow: hidden;
+
+      background:
+
+        radial-gradient(
+          circle at 30% 30%,
+          rgba(255,255,255,0.7),
+          transparent 20%
+        ),
+
+        linear-gradient(
+          135deg,
+          rgba(255,188,215,0.4),
+          rgba(199,173,255,0.4)
+        );
+    }
+
+    #surpriseMessage {
+
+      display: none;
+
+      margin-top: 40px;
+
+      font-family:
+        "Dancing Script",
+        cursive;
+
+      color: #ca438c;
+
+      font-size:
+        clamp(
+          3rem,
+          7vw,
+          6rem
+        );
+
+      line-height: 1.1;
+
+      animation:
+        surpriseAnimation
+        0.8s
+        ease;
+    }
+
+    @keyframes surpriseAnimation {
+
+      from {
+
+        opacity: 0;
+
+        transform:
+          scale(0.3)
+          rotate(-5deg);
+      }
+
+      to {
+
+        opacity: 1;
+
+        transform:
+          scale(1)
+          rotate(0);
+      }
+
+    }
+
+
+    /* =========================
+       HEARTS
+    ========================= */
+
+    .heart {
+
+      position: fixed;
+
+      bottom: -50px;
+
+      pointer-events: none;
+
+      z-index: 50;
+
+      animation:
+        heartFloat
+        linear
+        forwards;
+    }
+
+    @keyframes heartFloat {
+
+      from {
+
+        transform:
+          translateY(0)
+          rotate(0);
+
+        opacity: 1;
+      }
+
+      to {
+
+        transform:
+          translateY(-115vh)
+          rotate(360deg);
+
+        opacity: 0;
+      }
+
+    }
+
+
+    /* =========================
+       CONFETTI
+    ========================= */
+
+    .confetti {
+
+      position: fixed;
+
+      top: -30px;
+
+      width: 10px;
+      height: 16px;
+
+      z-index: 9999;
+
+      pointer-events: none;
+
+      animation:
+        confettiFall
+        linear
+        forwards;
+    }
+
+    @keyframes confettiFall {
+
+      to {
+
+        transform:
+          translateY(110vh)
+          rotate(720deg);
+
+        opacity: 0;
+      }
+
+    }
+
+
+    /* =========================
+       BALLOONS
+    ========================= */
+
+    .balloon {
+
+      position: fixed;
+
+      bottom: -150px;
+
+      width: 58px;
+      height: 75px;
+
+      border-radius: 50%;
+
+      z-index: 999;
+
+      pointer-events: none;
+
+      animation:
+        balloonRise
+        linear
+        forwards;
+    }
+
+    .balloon::after {
+
+      content: "";
+
+      position: absolute;
+
+      left: 50%;
+      bottom: -90px;
+
+      width: 1px;
+      height: 90px;
+
+      background: #777;
+    }
+
+    @keyframes balloonRise {
+
+      to {
+
+        transform:
+          translateY(-120vh)
+          rotate(10deg);
+      }
+
+    }
+
+
+    /* =========================
+       SCROLL REVEAL
+    ========================= */
+
+    .reveal {
+
+      opacity: 0;
+
+      transform:
+        translateY(50px);
+
+      transition:
+        opacity 1s ease,
+        transform 1s ease;
+    }
+
+    .reveal.active {
+
+      opacity: 1;
+
+      transform:
+        translateY(0);
+    }
+
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    footer {
+
+      padding: 35px 20px;
+
+      text-align: center;
+
+      background:
+        rgba(255,255,255,0.6);
+
+      color: #755876;
+    }
+
+
+    /* =========================
+       MOBILE
+    ========================= */
+
+    @media(max-width: 950px) {
+
+      nav ul {
+        display: none;
+      }
+
+      .reasons {
+        grid-template-columns:
+          repeat(2, 1fr);
+      }
+
+    }
+
+    @media(max-width: 600px) {
+
+      section {
+        padding: 80px 20px;
+      }
+
+      .hero h1 {
+        font-size: 4.5rem;
+      }
+
+      .message-card {
+        padding: 30px 22px;
+      }
+
+      .reasons {
+        grid-template-columns: 1fr;
+      }
+
+      .countdown {
+        grid-template-columns:
+          repeat(2, 1fr);
+      }
+
+      .time-box strong {
+        font-size: 2rem;
+      }
+
+      .cake {
+        transform: scale(0.9);
+      }
+
+    }
+
+  </style>
+</head>
+
+
+<body>
+
+
+  <!-- =========================
+       NAVIGATION
+  ========================= -->
+
+  <nav>
+
+    <div class="logo">
+      For Manikanta ❤️
+    </div>
+
+    <ul>
+
+      <li>
+        <a href="#home">Home</a>
+      </li>
+
+      <li>
+        <a href="#message">Message</a>
+      </li>
+
+      <li>
+        <a href="#reasons">Special</a>
+      </li>
+
+      <li>
+        <a href="#countdown">Countdown</a>
+      </li>
+
+      <li>
+        <a href="#surprise">Surprise</a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+
+  <!-- =========================
+       HERO
+  ========================= -->
+
+  <section
+    class="hero"
+    id="home"
+  >
+
+    <div class="hero-content">
+
+      <div class="hero-small">
+        ✨ TODAY IS A VERY SPECIAL DAY ✨
+      </div>
+
+      <h1>
+        🎉 Happy Birthday,<br>
+        Manikanta! 🎂
+      </h1>
+
+      <p class="hero-text">
+        Today is all about celebrating
+        <strong>YOU!</strong> ❤️
+      </p>
+
+
+      <!-- CAKE -->
+
+      <div class="cake">
+
+        <div class="candle">
+          <div class="flame"></div>
+        </div>
+
+        <div class="candle">
+          <div class="flame"></div>
+        </div>
+
+        <div class="candle">
+          <div class="flame"></div>
+        </div>
+
+        <div class="cake-top"></div>
+
+        <div class="cake-body"></div>
+
+      </div>
+
+
+      <button
+        class="btn"
+        onclick="makeWish()"
+      >
+        Make a Wish ✨
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       BIRTHDAY MESSAGE
+  ========================= -->
+
+  <section
+    id="message"
+    class="reveal"
+  >
+
+    <h2 class="section-title">
+      A Special Message For You 💌
+    </h2>
+
+    <div class="message-card">
+
+      <div class="heart-icon">
+        ❤️
+      </div>
+
+      <p>
+        Happy Birthday to an absolutely amazing person
+        named <strong>Manikanta!</strong> ❤️
+      </p>
+
+      <p>
+        May your special day be filled with happiness,
+        laughter, love, and unforgettable memories.
+      </p>
+
+      <p>
+        May all your dreams come true and may the coming
+        year bring you countless beautiful moments.
+      </p>
+
+      <p>
+        You deserve all the happiness in the world.
+      </p>
+
+      <br>
+
+      <p>
+        🎂✨ Happy Birthday, Manikanta! ✨🎂
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       REASONS
+  ========================= -->
+
+  <section
+    id="reasons"
+    class="reveal"
+  >
+
+    <h2 class="section-title">
+      Why You're Special 💖
+    </h2>
+
+    <p class="section-subtitle">
+      There are so many beautiful things that make
+      Manikanta special. Click the cards! ❤️
+    </p>
+
+
+    <div class="reasons">
+
+      <div
+        class="reason"
+        onclick="selectReason(this)"
+      >
+        💖 Your beautiful smile
+      </div>
+
+      <div
+        class="reason"
+        onclick="selectReason(this)"
+      >
+        🌟 Your amazing personality
+      </div>
+
+      <div
+        class="reason"
+        onclick="selectReason(this)"
+      >
+        😂 The way you make everyone laugh
+      </div>
+
+      <div
+        class="reason"
+        onclick="selectReason(this)"
+      >
+        🫶 Your caring heart
+      </div>
+
+      <div
+        class="reason"
+        onclick="selectReason(this)"
+      >
+        ✨ The happiness you bring to others
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       COUNTDOWN
+  ========================= -->
+
+  <section
+    id="countdown"
+    class="reveal"
+  >
+
+    <h2 class="section-title">
+      Time Until Your Next Birthday 🎈
+    </h2>
+
+    <p class="section-subtitle">
+      Counting down until another beautiful birthday
+      celebration for Manikanta!
+    </p>
+
+
+    <div class="countdown">
+
+      <div class="time-box">
+
+        <strong id="days">
+          00
+        </strong>
+
+        <span>
+          Days
+        </span>
+
+      </div>
+
+
+      <div class="time-box">
+
+        <strong id="hours">
+          00
+        </strong>
+
+        <span>
+          Hours
+        </span>
+
+      </div>
+
+
+      <div class="time-box">
+
+        <strong id="minutes">
+          00
+        </strong>
+
+        <span>
+          Minutes
+        </span>
+
+      </div>
+
+
+      <div class="time-box">
+
+        <strong id="seconds">
+          00
+        </strong>
+
+        <span>
+          Seconds
+        </span>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       FINAL SURPRISE
+  ========================= -->
+
+  <section
+    class="surprise"
+    id="surprise"
+  >
+
+    <h2 class="section-title">
+      One Last Surprise... 🎁
+    </h2>
+
+    <p
+      class="section-subtitle"
+      style="margin-bottom:30px;"
+    >
+      There's something special waiting for you...
+    </p>
+
+
+    <button
+      class="btn"
+      onclick="openSurprise()"
+    >
+      🎁 Open Your Birthday Surprise
+    </button>
+
+
+    <div id="surpriseMessage">
+
+      You are truly special. ❤️
+      <br>
+
+      Happy Birthday once again! 🎂✨
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    Made with ❤️ especially for Manikanta
+    <br>
+    🎂 Happy Birthday! 🎉
+
+  </footer>
+
+
+  <script>
+
+    /* =========================
+       CONFETTI
+    ========================= */
+
+    function createConfetti(amount = 120) {
+
+      const colors = [
+        "#ff4f9a",
+        "#9b5cff",
+        "#ffd43b",
+        "#ff8b6a",
+        "#55d9ff",
+        "#76df87",
+        "#ffffff"
+      ];
+
+      for (let i = 0; i < amount; i++) {
+
+        const piece =
+          document.createElement("div");
+
+        piece.className =
+          "confetti";
+
+        piece.style.left =
+          Math.random() * 100 + "vw";
+
+        piece.style.background =
+          colors[
+            Math.floor(
+              Math.random() *
+              colors.length
+            )
+          ];
+
+        piece.style.animationDuration =
+          (2 + Math.random() * 3) + "s";
+
+        piece.style.animationDelay =
+          Math.random() * 0.5 + "s";
+
+        piece.style.transform =
+          `rotate(${Math.random() * 360}deg)`;
+
+        document.body.appendChild(piece);
+
+        setTimeout(
+          () => piece.remove(),
+          6000
+        );
+
+      }
+
+    }
+
+
+    /* =========================
+       FLOATING HEARTS
+    ========================= */
+
+    function createHearts(amount = 10) {
+
+      const hearts = [
+        "❤️",
+        "💖",
+        "💕",
+        "💗",
+        "💓",
+        "💜",
+        "💘"
+      ];
+
+      for (let i = 0; i < amount; i++) {
+
+        const heart =
+          document.createElement("div");
+
+        heart.className =
+          "heart";
+
+        heart.innerText =
+          hearts[
+            Math.floor(
+              Math.random() *
+              hearts.length
+            )
+          ];
+
+        heart.style.left =
+          Math.random() * 100 + "vw";
+
+        heart.style.fontSize =
+          (18 + Math.random() * 25) + "px";
+
+        heart.style.animationDuration =
+          (5 + Math.random() * 5) + "s";
+
+        document.body.appendChild(heart);
+
+        setTimeout(
+          () => heart.remove(),
+          11000
+        );
+
+      }
+
+    }
+
+
+    /* =========================
+       BALLOONS
+    ========================= */
+
+    function createBalloons(amount = 20) {
+
+      const colors = [
+        "#ff65a6",
+        "#9b5cff",
+        "#ffd447",
+        "#61d9ff",
+        "#ff8768",
+        "#73dd83",
+        "#ffb4d5"
+      ];
+
+      for (let i = 0; i < amount; i++) {
+
+        const balloon =
+          document.createElement("div");
+
+        balloon.className =
+          "balloon";
+
+        balloon.style.left =
+          Math.random() * 100 + "vw";
+
+        balloon.style.background =
+          colors[
+            Math.floor(
+              Math.random() *
+              colors.length
+            )
+          ];
+
+        balloon.style.animationDuration =
+          (5 + Math.random() * 5) + "s";
+
+        balloon.style.animationDelay =
+          Math.random() * 1.5 + "s";
+
+        document.body.appendChild(balloon);
+
+        setTimeout(
+          () => balloon.remove(),
+          12000
+        );
+
+      }
+
+    }
+
+
+    /* =========================
+       MAKE A WISH
+    ========================= */
+
+    function makeWish() {
+
+      createConfetti(150);
+
+      createHearts(20);
+
+      const button =
+        document.querySelector(
+          "#home .btn"
+        );
+
+      button.innerHTML =
+        "✨ Wish Sent! ❤️";
+
+      setTimeout(() => {
+
+        button.innerHTML =
+          "Make a Wish ✨";
+
+      }, 2500);
+
+    }
+
+
+    /* =========================
+       REASONS CARD
+    ========================= */
+
+    function selectReason(card) {
+
+      card.classList.toggle("active");
+
+      createHearts(3);
+
+    }
+
+
+    /* =========================
+       FINAL SURPRISE
+    ========================= */
+
+    function openSurprise() {
+
+      const message =
+        document.getElementById(
+          "surpriseMessage"
+        );
+
+      message.style.display =
+        "block";
+
+      createConfetti(250);
+
+      createBalloons(30);
+
+      createHearts(35);
+
+      document.getElementById(
+        "surprise"
+      ).scrollIntoView({
+        behavior: "smooth"
+      });
+
+    }
+
+
+    /* =========================
+       BIRTHDAY COUNTDOWN
+       
+       CHANGE THESE VALUES
+       TO MANIKANTA'S BIRTHDAY
+    ========================= */
+
+    /*
+       JavaScript months start at 0.
+
+       January  = 0
+       February = 1
+       March    = 2
+       April    = 3
+       May      = 4
+       June     = 5
+       July     = 6
+       August   = 7
+       September= 8
+       October  = 9
+       November = 10
+       December = 11
+    */
+
+    const birthdayMonth = 8;
+
+    const birthdayDay = 27;
+
+
+    function updateCountdown() {
+
+      const now =
+        new Date();
+
+      let nextBirthday =
+        new Date(
+          now.getFullYear(),
+          birthdayMonth,
+          birthdayDay,
+          0,
+          0,
+          0
+        );
+
+
+      if (
+        nextBirthday <= now
+      ) {
+
+        nextBirthday =
+          new Date(
+            now.getFullYear() + 1,
+            birthdayMonth,
+            birthdayDay,
+            0,
+            0,
+            0
+          );
+
+      }
+
+
+      const difference =
+        nextBirthday.getTime()
+        - now.getTime();
+
+
+      const days =
+        Math.floor(
+          difference /
+          (1000 * 60 * 60 * 24)
+        );
+
+
+      const hours =
+        Math.floor(
+          (
+            difference /
+            (1000 * 60 * 60)
+          ) % 24
+        );
+
+
+      const minutes =
+        Math.floor(
+          (
+            difference /
+            (1000 * 60)
+          ) % 60
+        );
+
+
+      const seconds =
+        Math.floor(
+          (
+            difference /
+            1000
+          ) % 60
+        );
+
+
+      document.getElementById(
+        "days"
+      ).textContent =
+        String(days)
+        .padStart(2, "0");
+
+
+      document.getElementById(
+        "hours"
+      ).textContent =
+        String(hours)
+        .padStart(2, "0");
+
+
+      document.getElementById(
+        "minutes"
+      ).textContent =
+        String(minutes)
+        .padStart(2, "0");
+
+
+      document.getElementById(
+        "seconds"
+      ).textContent =
+        String(seconds)
+        .padStart(2, "0");
+
+    }
+
+
+    updateCountdown();
+
+    setInterval(
+      updateCountdown,
+      1000
+    );
+
+
+    /* =========================
+       SCROLL REVEAL
+    ========================= */
+
+    const revealElements =
+      document.querySelectorAll(
+        ".reveal"
+      );
+
+
+    function revealOnScroll() {
+
+      revealElements.forEach(
+        element => {
+
+          const position =
+            element
+              .getBoundingClientRect()
+              .top;
+
+
+          if (
+            position <
+            window.innerHeight - 100
+          ) {
+
+            element.classList.add(
+              "active"
+            );
+
+          }
+
+        }
+      );
+
+    }
+
+
+    window.addEventListener(
+      "scroll",
+      revealOnScroll
+    );
+
+
+    revealOnScroll();
+
+
+    /* =========================
+       CONTINUOUS HEARTS
+    ========================= */
+
+    setInterval(
+      () => createHearts(1),
+      2800
+    );
+
+  </script>
+
+</body>
+</html>
